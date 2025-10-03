@@ -1,6 +1,6 @@
 import React from "react";
-import starIcon from "../assets/Star_fill.svg";
-import noRatingIcon from "../assets/Star.svg";
+import starIcon from "@/assets/Star_fill.svg";
+import noRatingIcon from "@/assets/Star.svg";
 export default function CoffeeCard({
     id,
     name,
