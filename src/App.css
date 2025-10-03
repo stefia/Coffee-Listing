@@ -5,6 +5,8 @@
 }
 body {
   background-color:#111315;
+  margin: 0;
+  padding: 0;
 }
 .page {
   min-height: 100vh;
@@ -48,6 +50,7 @@ body {
   border-style: none;
   font-size: 14px;
   font-weight: 500;
+  color: #fff;
   background-color: transparent;
   cursor: pointer;
 }
@@ -148,9 +151,10 @@ body {
   }
   .panel-subtitle {
     max-width: 800px;
+    font-size: 14px;
   }
   .panel {
-    padding: 40px 50px 50px;
+    padding: 20px 50px 50px;
   }
   .panel-cards { 
     grid-template-columns: repeat(1, minmax(0,1fr)); 
